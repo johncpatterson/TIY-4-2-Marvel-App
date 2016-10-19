@@ -19,7 +19,6 @@ $border-color: #5CA4D7;
 body {
     background-color: $primary-color;
     color: $font-color;
-    // width: 100%;
     margin-top: 30px;
 }
 
@@ -32,28 +31,40 @@ img {
     max-height: 100%;
 }
 
-
-.navbar {
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
+div img {
+    padding: 5px;
+}
+.navbar-brand img {
+    padding: 0px;
 }
 
-.navbar-brand {
-    font-family: 'Pacifico', cursive;
+#navbar,
+.navbar,
+.navbar-default,
+.navbar-fixed-top,
+.navbar-collapse,
+.navbar-nav
+.nav,
+.navbar-header, 
+.navbar-static-top{
+    font-family: 'Bangers', cursive;
     font-size: 35px;
-}
-
-.navbar-default .navbar-brand {
-    color: #C6538C;
+    // background-color: yellow;
 }
 
 .jumbotron h1 {
-font-family: 'Bangers', cursive;
+    font-family: 'Bangers', cursive;
     font-size: 48px;
 }
 
+.jumbotron h2 {
+    font-family: 'Bangers', cursive;
+    font-size: 35px;
+}
+
 .jumbotron p {
-font-family: 'Permanent Marker', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 25px;
 }
 
 .jumbotron {
@@ -63,11 +74,13 @@ font-family: 'Permanent Marker', cursive;
 #map {
     height: 100%;
 }
+
 .comic_info {
-        font-family: 'Orbitron', sans-serif;
-            font-size: 25px;
-
-
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+}
+.comic_price {
+    font-weight: bold;
 }
 
 .social_network_icon {
@@ -75,14 +88,10 @@ font-family: 'Permanent Marker', cursive;
     padding: 10px;
 }
 
-span .time {
-    font-size: 13px;
-}
 
 .hidden {
     display: none;
 }
-
 
 .fa-repeat {
     padding-top: 8px;
@@ -90,47 +99,7 @@ span .time {
 }
 
 
-/*animation*/
-
-// @keyframes movePopUpDown {
-//     0% {
-//         margin-top: -40px;
-//         opacity: 0;
-//     }
-//     30% {
-//         opacity: .6;
-//     }
-//     100% {
-//         margin-top: 0;
-//         opacity: 1;
-//     }
-// }
-// @keyframes showCartContents {
-//     0% {
-//         // margin-right: -420px;
-//         opacity: 0;
-//     }
-//     30% {
-//         opacity: .30;
-//     }
-//     50% {
-//         opacity: .50;
-//     }
-//     70% {
-//         opacity: .70;
-//     }
-//     100% {
-//         margin-right: 0;
-//         opacity: 1;
-//     }
-// }
 
 /*media queries*/
 
-@media screen and (max-width: 990px) {
-    #cart_stuff_to_hide {
-        width: 96%;
-        top: 40px;
-        position: absolute;
-    }
-}
+

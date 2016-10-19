@@ -15,23 +15,35 @@ img {
   max-width: 100%;
   max-height: 100%; }
 
-.navbar {
-  font-size: 18px;
-  font-family: 'Raleway', sans-serif; }
+div img {
+  padding: 5px; }
 
-.navbar-brand {
-  font-family: 'Pacifico', cursive;
+.navbar-brand img {
+  padding: 0px; }
+
+#navbar,
+.navbar,
+.navbar-default,
+.navbar-fixed-top,
+.navbar-collapse,
+.navbar-nav
+.nav,
+.navbar-header,
+.navbar-static-top {
+  font-family: 'Bangers', cursive;
   font-size: 35px; }
-
-.navbar-default .navbar-brand {
-  color: #C6538C; }
 
 .jumbotron h1 {
   font-family: 'Bangers', cursive;
   font-size: 48px; }
 
+.jumbotron h2 {
+  font-family: 'Bangers', cursive;
+  font-size: 35px; }
+
 .jumbotron p {
-  font-family: 'Permanent Marker', cursive; }
+  font-family: 'Permanent Marker', cursive;
+  font-size: 25px; }
 
 .jumbotron {
   background-color: #db3b3b; }
@@ -43,12 +55,12 @@ img {
   font-family: 'Orbitron', sans-serif;
   font-size: 25px; }
 
+.comic_price {
+  font-weight: bold; }
+
 .social_network_icon {
   font-size: 75px;
   padding: 10px; }
-
-span .time {
-  font-size: 13px; }
 
 .hidden {
   display: none; }
@@ -57,10 +69,4 @@ span .time {
   padding-top: 8px;
   padding-left: 8px; }
 
-/*animation*/
 /*media queries*/
-@media screen and (max-width: 990px) {
-  #cart_stuff_to_hide {
-    width: 96%;
-    top: 40px;
-    position: absolute; } }

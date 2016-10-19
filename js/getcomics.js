@@ -17,7 +17,7 @@ jQuery(function() {
                         <div class="row">
                                 <div class="col-md-5"><img src="${Comic.thumbnail.path}.${Comic.thumbnail.extension}" class="img-responsive"></div>
                                 <div class="col-md-5 comic_info">${Comic.title}</div>
-                                <div class="col-md-2 comic_info">$ ${Comic.prices[0].price}</div>
+                                <div class="col-md-2 comic_info comic_price">$ ${Comic.prices[0].price}</div>
                         </div>`)
 
                 })
