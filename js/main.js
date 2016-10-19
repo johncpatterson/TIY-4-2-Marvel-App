@@ -14,11 +14,11 @@ jQuery(function() {
                 console.log(featuredCharacters);
                 var arrayOfCharacters = featuredCharacters.data.results.forEach(function(Character) {
 
-                    // var random = arrayOfCharacters[Math.floor(Math.random() * arrayOfCharacters.length)];   <----- attempt at random number generation
+                    // var random = arrayOfCharacters[Math.floor(Math.random() * arrayOfCharacters.length)];   <----- attempt at random number generation.  
+                    // I know I need to generate a random number then use that number to pick from the array that is returned from Marvel, just not sure how. 
 
                     $("#putCharactersHere").append(`
-                        
-                                <div class="col-md-4"><img src="${Character.thumbnail.path}.${Character.thumbnail.extension}" class="img-responsive"></div>
+                               <div class="col-md-4"><img src="${Character.thumbnail.path}.${Character.thumbnail.extension}" class="img-responsive"></div>
                         `)
 
                 })
@@ -37,8 +37,7 @@ jQuery(function() {
                 featuredComics.data.results.forEach(function(Comic) {
 
                     $("#putComicsHere").append(`
-                        
-                                <div class="col-md-4"><img src="${Comic.thumbnail.path}.${Comic.thumbnail.extension}" class="img-responsive"></div>
+                               <div class="col-md-4"><img src="${Comic.thumbnail.path}.${Comic.thumbnail.extension}" class="img-responsive"></div>
                         `)
 
                 })
