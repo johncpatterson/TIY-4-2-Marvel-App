@@ -58,29 +58,18 @@
         <div class="row">
             <div class="jumbotron col-md-12">
                 <h1>Our top secret location: <i class="fa fa-hand-o-down" aria-hidden="true"></i></h1>
+
+               
+
                 <div id="map"></div>
-                <script>
-                function initMap() {
-                    var uluru = {
-                        lat: -25.363,
-                        lng: 131.044
-                    };
-                    var map = new google.maps.Map(document.getElementById('map'), {
-                        zoom: 4,
-                        center: uluru
-                    });
-                    var marker = new google.maps.Marker({
-                        position: uluru,
-                        map: map
-                    });
-                }
-                </script>
-                <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBB_34oTKZ6bJxKqMSIlrMbF86nN4KD3O8&callback=initMap">
-                </script>
+
             </div>
         </div>
     </div>
     <!-- /container -->
 </body>
+
+<script src="js/contact.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDy1I83TVa3wdY1Xk8EY3i-dk6BNn3Ac8&callback=initMap"></script>
 
 </html>
